@@ -1,0 +1,30 @@
+{
+    "extends": ["google"],
+    "rules": {
+      "camelcase": "off",
+      "func-call-spacing": 0,
+      "import/no-anonymous-default-export": [
+        "error",
+        {
+          "allowArray": false,
+          "allowArrowFunction": true,
+          "allowAnonymousClass": true,
+          "allowAnonymousFunction": true,
+          "allowCallExpression": true,
+          "allowLiteral": false,
+          "allowObject": false
+        }
+      ],
+      "indent": 0,
+      "linebreak-style": 0,
+      "max-len": "off",
+      "no-invalid-this": "off",
+      "object-curly-spacing": ["error", "always"],
+      "operator-linebreak": 0,
+      "quote-props": ["error", "as-needed"],
+      "react-hooks/exhaustive-deps": "off",
+      "require-jsdoc": 0,
+      "space-before-function-paren": "off"
+    },
+    "ignorePatterns": ["node_modules"]
+  }
